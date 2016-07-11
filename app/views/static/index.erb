@@ -1,2 +1,40 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- Logo -->
+      <a href="/" style="width: 100%; height: 100%; z-index: 999;">
+        <div class="logo"></div>
+      </a>
+
+      <!-- Ask a question -->
+      <div class="container form-container">
+        <table>
+          <tr>
+            <form>
+              <td><input type="text" placeholder="Ask your question"></td>
+              <td><input type="submit" value="Ask Quora"></td>
+            </form>
+          </tr>
+        </table>
+      </div>
+
+      <!-- User button -->
+      <button type="button" class="btn btn-default dropdown-toggle nbar-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%=current_user.first_name%></button>
+        <ul class="dropdown-menu pull-right">
+          <li><a style="text-align: center;" href="#">Profile</a></li>
+          <li role="separator" class="divider"></li>
+          <li>
+            <form action="/logout" method="post">
+              <input id="logout" type="submit" class="btn btn-default" value="Log Out">
+            </form>
+          </li>
+        </ul>
+
+    </div>
+  </div>
+
+</nav>
+
+<% if flash[:notice] %>
+  <div class="notice"><%= flash[:notice] %></div>
+<% end %>

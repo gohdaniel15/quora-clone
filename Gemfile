@@ -6,6 +6,7 @@ source 'https://rubygems.org'
 # Adding Sinatra Drivers
 gem 'sinatra'
 gem 'sinatra-contrib'
+gem 'sinatra-flash'
 
 # Adding thin gem as advised
 gem 'thin'
@@ -23,6 +24,12 @@ gem 'rake'
 
 # Adding rspec for running unit testing
 gem 'rspec'
+
+# Adding byebug
+gem 'byebug'
+
+# Adding bcrypt
+gem 'bcrypt', '~> 3.1', '>= 3.1.7'
 
 group :development, :test do
 	# Adding shotgun for local web hosting
