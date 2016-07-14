@@ -372,3 +372,31 @@ a:hover {
   left: 30;
   background: antiquewhite;
 }
+
+.notice {
+  display: none;
+  position: static;
+  text-align: center;
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  padding: 17px;
+  margin-right: auto;
+  background: #3FBF7F;
+  border-radius: 10px
+}
+
+.error {
+  display: none;
+  position: static;
+  text-align: center;
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  padding: 17px;
+  margin-right: auto;
+  background: #BF3F3F;
+  border-radius: 10px
+}

@@ -20,6 +20,7 @@ $(document).ready(function() {
     $('.blur-page').fadeOut('slow');
   });
 
+
 // This function hides the button, but my controller redirects and refreshes the page. More to add.
   $('.vote-form').on('submit',function(event) {
     var form = $(this);
