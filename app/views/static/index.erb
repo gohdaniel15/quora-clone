@@ -79,6 +79,7 @@
           <input type="hidden" name="vote_submit" value="false">
           <button class="downvote" type="submit"><span><icon class="glyphicon glyphicon-thumbs-down"></icon></span></button><p class="button-container downvote-container"><%=q.question_votes.where(vote: false).count%></p>
         </form>
+        <% if q.user_id == current_user.id %>
         <div class="button-container">
           <form class="button-container" action="/questions/<%= q.id%>" method="post">
             <input name="_method" type="hidden" value="delete">
@@ -87,6 +88,7 @@
             </span>
           </form>
         </div>
+        <% end %>
       </div>
     </div>
   </div>

@@ -374,7 +374,6 @@ a:hover {
 }
 
 .notice {
-  display: none;
   position: static;
   text-align: center;
   margin-top: 10px;
@@ -388,7 +387,6 @@ a:hover {
 }
 
 .error {
-  display: none;
   position: static;
   text-align: center;
   margin-top: 10px;
