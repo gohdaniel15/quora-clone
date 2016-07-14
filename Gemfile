@@ -13,7 +13,7 @@ gem 'thin'
 
 # Adding ActiveRecord and Database Components
 gem 'activerecord'
-gem 'activesupport'
+gem 'activesupport', require: 'activesupport/all'
 gem 'sinatra-activerecord'
 
 # Adding Database elements
@@ -27,6 +27,12 @@ gem 'rspec'
 
 # Adding byebug
 gem 'byebug'
+
+# Adding capybara
+gem 'capybara'
+
+# Adding time difference
+gem 'time_diff'
 
 # Adding bcrypt
 gem 'bcrypt', '~> 3.1', '>= 3.1.7'

@@ -21,6 +21,9 @@ require 'sinatra/flash'
 	# embedded ruby
 require 'erb'
 require 'uri'
+require 'time_diff'
+require 'active_support'
+require 'byebug'
 ######################################################################
 
 

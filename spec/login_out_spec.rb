@@ -1,8 +1,9 @@
 require 'spec_helper'
+require 'capybara'
 
 describe 'Signing up' do
   before do
-    ensure_on index_path
+    visit '/'
     click_on 'Sign Up'
   end
 

@@ -22,6 +22,7 @@ html {
   max-height: inherit;
   position: fixed;
   width: 100%;
+  background-color: white;
 }
 
 .navbar-header {
@@ -32,19 +33,13 @@ html {
 }
 
 body {
-  margin-top: 50px;
   height: 100%;
   word-wrap: break-word;
   color: #333;
   font-size: 13px;
   overflow-y: auto;
   overflow-x: hidden;
-}
-
-#logout {
-  border: none;
-  height: 26px;
-  width: 100%;
+  padding-top: 54px;
 }
 
 .nbar-button {
@@ -83,8 +78,9 @@ body {
 .form-container {
   margin:auto;
   text-align:center;
-  padding-top:13px;
-  margin-left:40%;
+  padding-top:9px;
+  margin-left:20%;
+  width: 60%;
 }
 
 .signup-login-box {
@@ -213,4 +209,166 @@ label {
 input {
   display: table-cell;
   width: 90%;
+}
+
+.body-wrapper {
+  margin: 0 20%;
+  width: 60%;
+}
+
+.question-box {
+  border-bottom: 1px solid #aaa;
+}
+
+.question-text {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.question-detail-text {
+  font-style: italic;
+}
+
+.question-description-text {
+  font-weight: 500;
+  color: #999;
+}
+
+.answer-text-box {
+  height: 200px;
+  width: 550px;
+}
+
+.individual-answer {
+  border-bottom: 1px solid #aaa;
+}
+
+.answer-user {
+  font-weight: 800;
+}
+
+.answer-details {
+  font-weight: 500;
+  color: #aaa;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none !important;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #333;
+}
+
+.button-container {
+  display: inline-block !important;
+}
+
+.glyphicon {
+  position: relative;
+  top: 5;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+  font-size: 20;
+}
+
+.upvote {
+  background-color: transparent;
+  border: none;
+  color: #999;
+}
+
+.upvote:hover {
+  background-color: transparent;
+  border: none;
+  color: #333;
+}
+
+.upvote:visited {
+  background-color: transparent;
+  border: none;
+  color: #32A832;
+}
+
+.upvote:focus {
+  background-color: transparent;
+  border: none;
+  color: #32A832;
+  outline: none;
+}
+
+.downvote {
+  background-color: transparent;
+  border: none;
+  color: #999;
+}
+
+.downvote:hover {
+  background-color: transparent;
+  border: none;
+  color: #333;
+}
+
+.downvote:visited {
+  background-color: transparent;
+  border: none;
+  color: #BE1C1C;
+}
+
+.downvote:focus {
+  background-color: transparent;
+  border: none;
+  color: #BE1C1C;
+  outline: none;
+}
+
+.blur-page {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 1000;
+}
+
+.input-bar {
+  width: 300%;
+  height: 34px;
+}
+
+.question-submit {
+  left: 346px;
+  position: relative;
+  border-radius: 0;
+}
+
+.dropdown-wide {
+  width: 100%;
+  border: none;
+  height: 35px;
+}
+
+.glyphicon-remove {
+  color: #999;
+  border: none;
+}
+
+.remove-div {
+  display: none;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top: -30;
+  left: 30;
+  background: antiquewhite;
 }
