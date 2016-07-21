@@ -55,7 +55,6 @@
 		  </div>
 
 		</nav>
-
 		<% end %>
 			<div class="blur-page"></div>
 
@@ -66,9 +65,9 @@
     <% if flash[:error] %>
       <div class="error"><%= flash[:error] %></div>
     <% end %>
-
+		<div class="body-container">
 		<%= yield %>
-
+		</div>
 	</body>
 
 </html>

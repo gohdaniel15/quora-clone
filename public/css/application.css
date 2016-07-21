@@ -67,7 +67,7 @@ body {
   background-size: 80px 23px;
   height: 50px;
   width: 80px;
-  background-image: url(//qsf.ec.quoracdn.net/-images.logo.wordmark_default.svg3b3df568383b6fd1.svg);
+  background-image: url('/img/GOHRA.png');
   display: block;
   margin: 0;
   background-position: center center;
@@ -95,7 +95,7 @@ body {
 }
 
 .landing-image {
-  background-image: url(//qsf.ec.quoracdn.net/-images.logo.wordmark_default.svg3b3df568383b6fd1.svg);
+  background-image: url('/img/GOHRA.png');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 224px 82px;
